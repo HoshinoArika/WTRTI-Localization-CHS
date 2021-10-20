@@ -1,0 +1,1993 @@
+[Indicators]
+src "WEP remain, m:s"
+dst "加力剩余时间, m:s"
+
+src "WEP time, m:s"
+dst "已使用加力时间, m:s"
+
+src "Booster remain, lb"
+dst "火箭助推剩余, lb"
+
+src "Booster remain, kg"
+dst "火箭助推剩余, kg"
+
+src "Booster remain, %"
+dst "火箭助推剩余, %"
+
+src "TSFC"
+dst "推力燃料消耗率比(TSFC)"
+
+src "BSFC"
+dst "制动燃料消耗率比(BSFC)"
+
+src "Fuel consumption, lb/min"
+dst "油耗, lb/min"
+
+src "Fuel consumption, kg/min"
+dst "油耗, kg/min"
+
+src "Mass of Fuel, lb"
+dst "燃油质量, lb"
+
+src "Mass of Fuel, kg"
+dst "燃油质量, kg"
+
+src "Fuel, m:s"
+dst "燃油量, m:s"
+
+src "Fuel, %"
+dst "燃油量, %"
+
+src "Thrust, lbf"
+dst "推力, lbf"
+
+src "Thrust, kgf"
+dst "推力, kgf"
+
+src "Power, hp"
+dst "功率, hp"
+
+src "RPM"
+dst "每分钟转速(RPM)"
+
+src "Manifold pressure, atm"
+dst "进气压, atm"
+
+src "Water temperature, ℃/s"
+dst "水温, ℃/s"
+
+src "Water temperature, ℉"
+dst "水温, ℉"
+
+src "Water temperature, ℃"
+dst "水温, ℃"
+
+src "Oil temperature, ℃/s"
+dst "油温, ℃/s"
+
+src "Oil temperature, ℉"
+dst "油温, ℉"
+
+src "Oil temperature, ℃"
+dst "油温, ℃"
+
+src "Engine temperature, ℃/s"
+dst "引擎温度, ℃/s"
+
+src "Engine temperature, ℉"
+dst "引擎温度, ℉"
+
+src "Engine temperature, ℃"
+dst "引擎温度, ℃"
+
+src "Propeller pitch, deg"
+dst "桨距, deg"
+
+src "Propeller pitch, %"
+dst "桨距, %"
+
+src "Propeller efficiency, %"
+dst "螺旋桨效率, %"
+
+src "Rudder, %"
+dst "方向舵(垂直尾翼), %"
+
+src "Elevator, %"
+dst "升降舵(水平尾翼), %"
+
+src "Aileron, %"
+dst "副翼, %"
+
+src "Airbrake, %"
+dst "减速板, %"
+
+src "Oil radiator, %"
+dst "滑油散热器, %"
+
+src "Radiator, %"
+dst "散热器, %"
+
+src "Mixture, %"
+dst "油气混合比, %"
+
+src "Nozzle angle, deg"
+dst "喷嘴角度, deg"
+
+src "Wing sweep lever, %"
+dst "可变后掠翼控制杆, %"
+
+src "Wing sweep, %"
+dst "可变后掠翼, %"
+
+src "Gear, %"
+dst "起落架, %"
+
+src "Flaps, %"
+dst "襟翼, %"
+
+src "Throttle, %"
+dst "节流阀, %"
+
+src "Critical AoA, %"
+dst "临界攻角(AoA), %"
+
+src "Flaps flutter, %"
+dst "襟翼震颤(FFLAP), %"
+
+src "Gear flutter, %"
+dst "起落架震颤(FGEAR), %"
+
+src "Wing flutter, %"
+dst "机翼震颤(FWING), %"
+
+src "Specific excess power, ft/min"
+dst "单位剩余功率(SEP), ft/min"
+
+src "Specific excess power, m/s"
+dst "单位剩余功率(SEP), m/s"
+
+src "Mach number"
+dst "马赫数"
+
+src "Compass"
+dst "朝向(指南针朝向)"
+
+src "Turn radius, ft"
+dst "转向半径, ft"
+
+src "Turn radius, m"
+dst "转向半径, m"
+
+src "Turn, s"
+dst "转向, s"
+
+src "Turn rate, deg/s"
+dst "转向率, deg/s"
+
+src "Turn rate, rad/s"
+dst "转向率, rad/s"
+
+src "Roll, s"
+dst "滚转, s"
+
+src "Roll rate, deg/s"
+dst "滚转率, deg/s"
+
+src "Supercharger gear"
+dst "增压器 gear"
+
+src "TAS, knots"
+dst "真空速(TAS), knots"
+
+src "TAS, mph"
+dst "真空速(TAS), mph"
+
+src "TAS, km/h"
+dst "真空速(TAS), km/h"
+
+src "IAS, knots"
+dst "指示空速(IAS), knots"
+
+src "IAS, mph"
+dst "指示空速(IAS), mph"
+
+src "IAS, km/h"
+dst "指示空速(IAS), km/h"
+
+src "Load factor, g"
+dst "过载, g"
+
+src "Climb, ft/min"
+dst "爬升率, ft/min"
+
+src "Climb, m/s"
+dst "爬升率, m/s"
+
+src "Pitch angle, deg"
+dst "俯仰角, deg"
+
+src "Roll angle, deg"
+dst "滚转角, deg"
+
+src "AoS, deg"
+dst "滑移角度(AoS), deg"
+
+src "AoA, deg"
+dst "攻角(AoA), deg"
+
+src "Acceleration, ft/s^2"
+dst "加速度, ft/s^2"
+
+src "Acceleration, m/s^2"
+dst "加速度, m/s^2"
+
+src "Radar altitude, ft"
+dst "雷达高度, ft"
+
+src "Radar altitude, m"
+dst "雷达高度, m"
+
+src "Altitude, ft"
+dst "高度, ft"
+
+src "Altitude, m"
+dst "高度, m"
+
+
+[OSD Indicators]
+src "WEP remain, m:s"
+dst "加力剩余"
+
+src "WEP time, m:s"
+dst "已用加力"
+
+src "Booster remain, lb"
+dst "助推"
+
+src "Booster remain, kg"
+dst "助推"
+
+src "Booster remain, %"
+dst "助推"
+
+src "TSFC"
+dst "TSFC"
+
+src "BSFC"
+dst "BSFC"
+
+src "Fuel consumption, lb/min"
+dst "油耗"
+
+src "Fuel consumption, kg/min"
+dst "油耗"
+
+src "Mass of Fuel, lb"
+dst "燃油"
+
+src "Mass of Fuel, kg"
+dst "燃油"
+
+src "Fuel, m:s"
+dst "油量"
+
+src "Fuel, %"
+dst "油量"
+
+src "Thrust, lbf"
+dst "推力"
+
+src "Thrust, kgf"
+dst "推力"
+
+src "Power, hp"
+dst "功率"
+
+src "RPM"
+dst "转速"
+
+src "Manifold pressure, atm"
+dst "进气压"
+
+src "Water temperature, ℃/s"
+dst "水温"
+
+src "Water temperature, ℉"
+dst "水温"
+
+src "Water temperature, ℃"
+dst "水温"
+
+src "Oil temperature, ℃/s"
+dst "油温"
+
+src "Oil temperature, ℉"
+dst "油温"
+
+src "Oil temperature, ℃"
+dst "油温"
+
+src "Engine temperature, ℃/s"
+dst "引擎"
+
+src "Engine temperature, ℉"
+dst "引擎"
+
+src "Engine temperature, ℃"
+dst "引擎"
+
+src "Propeller pitch, deg"
+dst "桨距"
+
+src "Propeller pitch, %"
+dst "桨距"
+
+src "Propeller efficiency, %"
+dst "桨效"
+
+src "Rudder, %"
+dst "垂尾"
+
+src "Elevator, %"
+dst "水尾"
+
+src "Aileron, %"
+dst "副翼"
+
+src "Airbrake, %"
+dst "减速板"
+
+src "Radiator, %"
+dst "散热器"
+
+src "Oil radiator, %"
+dst "滑油散热"
+
+src "Mixture, %"
+dst "油气"
+
+src "Nozzle angle, deg"
+dst "喷嘴"
+
+src "Wing sweep lever, %"
+dst "后掠翼杆"
+
+src "Wing sweep, %"
+dst "后掠翼"
+
+src "Gear, %"
+dst "起落架"
+
+src "Flaps, %"
+dst "襟翼"
+
+src "Throttle, %"
+dst "节流阀"
+
+src "Flaps flutter, %"
+dst "襟翼震颤"
+
+src "Gear flutter, %"
+dst "起落架震颤"
+
+src "Wing flutter, %"
+dst "机翼震颤"
+
+src "Critical AoA, %"
+dst "临界攻角"
+
+src "Specific excess power, ft/min"
+dst "SEP"
+
+src "Specific excess power, m/s"
+dst "SEP"
+
+src "Mach number"
+dst "马赫数"
+
+src "Compass"
+dst "朝向"
+
+src "Turn radius, ft"
+dst "回转"
+
+src "Turn radius, m"
+dst "回转"
+
+src "Turn, s"
+dst "回转"
+
+src "Turn rate, deg/s"
+dst "回转"
+
+src "Turn rate, rad/s"
+dst "回转"
+
+src "Roll, s"
+dst "滚转"
+
+src "Roll rate, deg/s"
+dst "滚转"
+
+src "Supercharger gear"
+dst "增压器"
+
+src "TAS, knots"
+dst "真空速"
+
+src "TAS, mph"
+dst "真空速"
+
+src "TAS, km/h"
+dst "真空速"
+
+src "IAS, knots"
+dst "指示空速"
+
+src "IAS, mph"
+dst "指示空速"
+
+src "IAS, km/h"
+dst "指示空速"
+
+src "Load factor, g"
+dst "过载"
+
+src "Climb, ft/min"
+dst "爬升"
+
+src "Climb, m/s"
+dst "爬升"
+
+src "Pitch angle, deg"
+dst "俯仰角"
+
+src "Roll angle, deg"
+dst "滚转角"
+
+src "AoS, deg"
+dst "AOS"
+
+src "AoA, deg"
+dst "AOA"
+
+src "Acceleration, ft/s^2"
+dst "加速度"
+
+src "Acceleration, m/s^2"
+dst "加速度"
+
+src "Radar altitude, ft"
+dst "雷达高度"
+
+src "Radar altitude, m"
+dst "雷达高度"
+
+src "Altitude, ft"
+dst "高度"
+
+src "Altitude, m"
+dst "高度"
+
+
+[OSD Units]
+src "W"
+dst "W"
+
+src "⁰F"
+dst "⁰F"
+
+src "⁰C/s"
+dst "⁰C/s"
+
+src "⁰C"
+dst "⁰C"
+
+src "lb/lbh"
+dst "lb/lbh"
+
+src "lb/min"
+dst "lb/min"
+
+src "lbf"
+dst "lbf"
+
+src "lb"
+dst "lb"
+
+src "kg/kgh"
+dst "kg/kgh"
+
+src "kg/min"
+dst "kg/min"
+
+src "kgf"
+dst "kgf"
+
+src "kg"
+dst "kg"
+
+src "hp"
+dst "hp"
+
+src "atm"
+dst "atm"
+
+src "%"
+dst "%"
+
+src "s"
+dst "s"
+
+src "kt"
+dst "kt"
+
+src "mph"
+dst "mph"
+
+src "km/h"
+dst "km/h"
+
+src "g"
+dst "g"
+
+src "rad/s"
+dst "rad/s"
+
+src "deg/s"
+dst "deg/s"
+
+src "deg"
+dst "deg"
+
+src "ft/min"
+dst "ft/min"
+
+src "ft/s^2"
+dst "ft/s^2"
+
+src "ft/s"
+dst "ft/s"
+
+src "ft"
+dst "ft"
+
+src "m/s^2"
+dst "m/s^2"
+
+src "m/s"
+dst "m/s"
+
+src "m"
+dst "m"
+
+
+[OSD Font Style]
+src "Light"
+dst "细体"
+
+src "Bold"
+dst "粗体"
+
+src "Regular"
+dst "常规"
+
+
+[Tray Icon]
+src "Close"
+dst "关闭"
+
+src "Show"
+dst "显示"
+
+
+[Main Window]
+src "State"
+dst "状态"
+
+src "Battle log"
+dst "作战记录"
+
+src "Game chat"
+dst "游戏聊天"
+
+src "N/A"
+dst "不可用"
+
+src "Groups"
+dst "分组"
+
+src "Value"
+dst "数值"
+
+src "Indicator"
+dst "指示器"
+
+src "Save"
+dst "保存"
+
+src "Reset"
+dst "重置"
+
+src "Settings"
+dst "设置"
+
+src "Create shortcut"
+dst "创建快捷方式"
+
+src "Down"
+dst "向下移动"
+
+src "VR Settings"
+dst "VR设置"
+
+src "Up"
+dst "向上移动"
+
+src "Vehicle Information"
+dst "载具详细信息"
+
+src "Delete"
+dst "删除"
+
+src "Mission"
+dst "任务"
+
+src "Add"
+dst "添加"
+
+
+[Main Window Hints]
+src "The selected Indicator will be deleted. Are you sure?"
+dst "被选中的指示器将被删除. 确定?"
+
+src "Displays additional vehicle information."
+dst "显示载具的额外信息."
+
+src "Displays battle log."
+dst "显示作战记录."
+
+src "Displays game chat."
+dst "显示游戏聊天."
+
+src "Displays advanced VR Settings"
+dst "显示高级VR设定"
+
+src "Choose game path and a shortcut will be created."
+dst "选择游戏路径后将创建一个快捷方式."
+
+src "Starts saving process.\r\n- <LMB> - opens 'Save as' window.\r\n- ALT-<LMB> - fast save."
+dst "开始保存流程.\r\n- <鼠标左键> - 打开 '保存为' 窗口.\r\n- ALT-<鼠标左键> - 快速保存."
+
+src "All current settings will be deleted. Are you sure?"
+dst "所有当前设置都将被删除. 确定吗?"
+
+src "Resets to default settings."
+dst "重置为默认设置."
+
+src "Displays advanced properties."
+dst "显示高级属性."
+
+src "Moves selected indicator down in the list."
+dst "将指示器在列表中下移."
+
+src "Moves selected indicator up in the list."
+dst "将指示器在列表中上移."
+
+src "Couldn't find the game launcher!"
+dst "找不到游戏启动器!"
+
+src "Deletes selected indicator from the list."
+dst "从列表中删除选择的指示器."
+
+src "Shortcut successfully created!"
+dst "成功创建快捷方式!"
+
+src "Adds indicator to the list."
+dst "将指示器添加进列表."
+
+src "Closes software."
+dst "关闭软件."
+
+src "The current profile has been changed. Do you want save it?"
+dst "当前配置文件有改动. 要保存吗?"
+
+src "Minimizes software."
+dst "最小化软件."
+
+src "- <Double-click> - opens indicator settings."
+dst "- <双击> - 打开指示器设置."
+
+
+[Update Period]
+src "monthly"
+dst "每月"
+
+src "weekly"
+dst "每周"
+
+src "daily"
+dst "每日"
+
+src "startup"
+dst "启动时"
+
+src "never"
+dst "永不"
+
+
+[Add Indicator Window]
+src "Cancel"
+dst "取消"
+
+src "Delete"
+dst "删除"
+
+src "Edit"
+dst "编辑"
+
+src "OK"
+dst "确定"
+
+src "Add"
+dst "添加"
+
+src "New indicator"
+dst "新指示器"
+
+src "Filter"
+dst "过滤"
+
+src "User made"
+dst "用户模式"
+
+src "Fuel"
+dst "燃油量"
+
+src "Engine"
+dst "引擎"
+
+src "Controls"
+dst "控制"
+
+src "Flight"
+dst "飞行"
+
+src "All"
+dst "全部"
+
+src "US"
+dst "英制"
+
+src "SI"
+dst "国际"
+
+src "Units"
+dst "单位"
+
+src "Indicator"
+dst "指示器"
+
+
+[Add Indicator Window Hints]
+src "ERROR: Indicator with kind of Name already exist."
+dst "错误: 已存在同名指示器."
+
+src "- <Double-click> - add the indicator to the main list.\r\n- <RMB> - extra menu."
+dst "- <左键双击> - 将指示器加入主列表.\r\n- <右键> - 额外菜单."
+
+src "The selected Indicator will be deleted. Are you sure?"
+dst "被选中的指示器将被删除. 确定?"
+
+
+[State Window]
+src "Save"
+dst "保存"
+
+
+[State Window Hints]
+src "- <RMB> - saves parameter in clipboard."
+dst "- <右键> - 保存参数到剪贴板."
+
+
+[User Indicator Editor Window]
+src "OK"
+dst "好"
+
+src "Custom"
+dst "自定义"
+
+src "Precision"
+dst "精度"
+
+src "Units"
+dst "单位"
+
+src "Name"
+dst "名称"
+
+src "OSD"
+dst "OSD"
+
+src "General"
+dst "通用"
+
+src "Cancel"
+dst "取消"
+
+src "WT name"
+dst "WT 名称"
+
+
+[User Indicator Editor Window Hints]
+src "Allows to set a parameter string for reading data from localhost:8111.Use \"State\" window (Press <F2> at the main window) to see which parameters are available.\r\n\r\nEmpty \"WT Name\" - switches the indicator into \"label\" mode, which will only show OSD name and triggering an alerts.\r\n\r\nAdding \"%d\" to the \"WT Name\", allows to read multiple parameters(e.g. multiple engines) with the same key.\r\n  Examples:\r\n    RPM %d\r\n    manifold_pressure%d\r\n    throttle %d, %%"
+dst "允许设置一个字符串参数用于从 localhost:8111 读取数据.使用 \"状态\" 窗口 (在主窗口按 <F2> 呼出) 查看哪些参数可用.\r\n\r\n空 \"WT 名称\" - 将指示器变为 \"标签\" 模式, 将仅显示 OSD 名称及触发警报.\r\n\r\n添加 \"%d\" 到 \"WT 名称\", 允许读取多项参数(举例：多个引擎) 使用同一按键.\r\n  范例:\r\n    RPM %d\r\n    manifold_pressure%d\r\n    throttle %d, %%"
+
+
+[Settings Window]
+src "Cancel"
+dst "取消"
+
+src "OK"
+dst "OK"
+
+src "MER calculation"
+dst "机动能量保存能量计算"
+
+src "Y"
+dst "Y"
+
+src "X"
+dst "X"
+
+src "Position"
+dst "位置"
+
+src "Show units in OSD"
+dst "在屏幕菜单上显示单位"
+
+src "Show OSD"
+dst "显示屏幕菜单"
+
+src "Group"
+dst "分组"
+
+src "Hotkeys"
+dst "热键"
+
+src "Separate"
+dst "单独"
+
+src "Status bar"
+dst "状态栏"
+
+src "All"
+dst "全部"
+
+src "Frame"
+dst "外框"
+
+src "Scale"
+dst "比例"
+
+src "Language"
+dst "语言"
+
+src "Indicators interval"
+dst "指示器间隔"
+
+src "Value alignment"
+dst "数值对齐"
+
+src "Hide unavailable indicators"
+dst "隐藏不可用的指示器"
+
+src "Indicators in a row"
+dst "每行指示器数量"
+
+src "Colors"
+dst "颜色"
+
+src "Opacity"
+dst "不透明度"
+
+src "Auto-load profiles"
+dst "自动读取配置文件"
+
+src "Delete"
+dst "删除"
+
+src "Close with the game"
+dst "游戏关闭时同时关闭此软件"
+
+src "Add"
+dst "添加"
+
+src "Start minimized"
+dst "启动时即最小化"
+
+src "Set"
+dst "设为"
+
+src "Alert volume"
+dst "告警颜色"
+
+src "Color editor"
+dst "颜色编辑器"
+
+src "Apply"
+dst "应用"
+
+src "Units"
+dst "单位"
+
+src "Value"
+dst "数值"
+
+src "Name"
+dst "名称"
+
+src "Layout"
+dst "布局"
+
+src "Address"
+dst "地址"
+
+src "Benchmark mode"
+dst "基准测试模式"
+
+src "Update interval (ms)"
+dst "更新间隔 (ms)"
+
+src "Name"
+dst "名称"
+
+src "Font"
+dst "字体"
+
+src "Color"
+dst "颜色"
+
+src "OSD Type"
+dst "屏幕菜单类型"
+
+src "Color scheme"
+dst "色彩方案"
+
+src "Default profiles"
+dst "默认配置文件"
+
+src "Network"
+dst "网络"
+
+src "Logging interval (ms)"
+dst "记录时间间隔 (ms)"
+
+src "General"
+dst "通用"
+
+
+[Settings Window Hints]
+src "Port number."
+dst "端口地址."
+
+src "IP address."
+dst "IP地址."
+
+src "Frame color."
+dst "外框颜色."
+
+src "Allows to set per-group background/rectangle.\r\n\r\nWorks only for WTRTI OSD."
+dst "允许设置每个分组的背景颜色/矩形.\r\n\r\n只在OSD模式为WTRTI时生效."
+
+src "Frame line width.\r\n0 - filled rectangle."
+dst "外框线宽度.\r\n0 - 填充矩形."
+
+src "Allows selecting group."
+dst "允许选中分组."
+
+src "Allows selecting language for user interface."
+dst "允许选择用户界面的语言."
+
+src "Automatically loading of vehicle profile, at beginning of a battle."
+dst "在一场战斗开始时自动加载载具单独配置, ."
+
+src "Allows to change the logging interval (ms).\r\n\r\nHints:\r\n- Logging only works when \"Benchmark mode\" is enabled.\r\n- <CTRL>+<ALT>+B - Benchmark mode.\r\n- CSV file will be saved in the \"Logs\" folder."
+dst "允许改变日志记录间隔时间 (ms).\r\n\r\n提示:\r\n - 记录功能仅当 \"基准测试模式\" 打开时会正常工作.\r\n - <CTRL>+<ALT>+B - 打开基准测试模式. \r\n- CSV 文件会被保存到 \"Logs\" 文件夹."
+
+src "Automatically hides unavailable indicators in OSD."
+dst "自动隐藏在屏幕菜单上不可用的指示器."
+
+src "Show units in OSD."
+dst "在屏幕菜单上显示单位."
+
+src "Show OSD."
+dst "显示屏幕菜单."
+
+src "Closing the App after closing the game."
+dst "关闭游戏后自动关闭本应用."
+
+src "Individual appearance of indicators.\r\n\r\nHints:\r\n- Individual settings of indicator are located at Indicator settings.\r\n- <Double-click> on indicator in main window - opens Indicator settings."
+dst "单独的指示器外观.\r\n\r\n提示:\r\n- 各个单独的指示器设置.\r\n- <双击> 在主窗口的指示器上 - 打开指示器设置."
+
+src "Forces minimizing WTRTI to system tray area on startup."
+dst "在WTRTI启动后将其最小化到系统托盘(屏幕右下角)."
+
+src "Changes appearance of All indicators at once."
+dst "同时改变所有指示器的外观."
+
+src "Interval between indicators in a row."
+dst "指示器在一行中的间隔."
+
+src "Value position."
+dst "数值位置."
+
+src "The number of Indicators in a row."
+dst "指示器在一行中的数量."
+
+src "Color's Name"
+dst "颜色名称"
+
+src "Color slots."
+dst "颜色栏位."
+
+src "Toggles Maneuvering Energy Retention calculation."
+dst "开关机动能量损失计算."
+
+src "Allows changing opacity."
+dst "允许改变不透明度."
+
+src "Color of the color slot.\r\n\r\nHINTS\r\n- <LMB> - opens color editor."
+dst "保存在栏位中的颜色.\r\n\r\n提示\r\n- <鼠标左键> - 打开颜色编辑器."
+
+src "Position OSD along the Y axis.\r\n\r\nHints:\r\n- <SHIFT>+<ALT>+<UP>/<DOWN> - moves OSD along the Y axis."
+dst "移动屏幕菜单在Y轴上的位置.\r\n\r\n提示:\r\n- <SHIFT>+<ALT>+<上键>/<下键> - 移动屏幕菜单在Y轴上的位置."
+
+src "Saves current settings to the color slot."
+dst "保存当前设置到颜色栏位."
+
+src "Allows changing of indicator Units color."
+dst "允许改变指示器的单位的颜色."
+
+src "Position OSD along the X axis.\r\n\r\nHints:\r\n- <SHIFT>+<ALT>+<LEFT>/<RIGHT> - moves OSD along the X axis."
+dst "移动屏幕菜单在X轴上的位置.\r\n\r\n提示:\r\n- <SHIFT>+<ALT>+<左键>/<右键> - 移动屏幕菜单在X轴上的位置."
+
+src "Allows changing of indicator Value color."
+dst "允许改变指示器的数值的颜色."
+
+src "Allows changing of indicator Name color."
+dst "允许改变指示器的名称的颜色."
+
+src "Allows changing font and size of font."
+dst "允许改变字体和字体大小."
+
+src "This type of OSD only works when \"Fullscreen Window\" mode is enabled.\r\n\r\nHints:\r\n- <ALT>+<PrtScr> - makes screenshot.\r\n- Screenshot will be saved in the \"Screenshots\" folder."
+dst "这个屏幕菜单显示方式仅当 \"全屏窗口化\" 模式打开时才能正常工作.\r\n\r\n提示:\r\n - <ALT>+<PrtScr> - 保存屏幕截图.\r\n- 截图会被保存到 \"Screenshots\" 文件夹."
+
+src "Requires \"Rivatuner Statistics Server\" to be installed and launched."
+dst "需要 \"Rivatuner Statistics Server\" 安装并且已打开才能使用."
+
+src "Allows to change the update interval (ms)."
+dst "允许改变更新的时间间隔 (ms)."
+
+
+[Font Settings Window]
+src "Cancel"
+dst "取消"
+
+src "OK"
+dst "确定"
+
+src "Sample"
+dst "示例"
+
+src "Size"
+dst "尺寸"
+
+src "VSpace"
+dst "垂直间距"
+
+src "Outline"
+dst "轮廓"
+
+src "Style"
+dst "样式"
+
+src "Font"
+dst "字体"
+
+
+[Font Settings Window Hints]
+src "Allows changing font size."
+dst "允许改变字体大小."
+
+src "Allows changing font style."
+dst "允许改变字体样式."
+
+src "Allows changing font."
+dst "允许改变字体."
+
+
+[Group Settings Window]
+src "Set"
+dst "设为"
+
+src "Delete"
+dst "删除"
+
+src "Name:"
+dst "名称:"
+
+src "Add"
+dst "添加"
+
+src "Groups"
+dst "分组"
+
+
+[Group Settings Window Hints]
+src "Set a name"
+dst "为分组设置一个新名称"
+
+src "The selected group will be deleted. Are you sure?"
+dst "被选中的分组将被删除. 确定吗?"
+
+src "Add new group"
+dst "添加新分组"
+
+src "Delete the group"
+dst "删除分组"
+
+src "Group name"
+dst "分组名"
+
+
+[Default Profile Settings Window]
+src "OK"
+dst "确定"
+
+src "By Aircraft type"
+dst "按飞机类别"
+
+src "Helicopter"
+dst "直升机"
+
+src "Bomber"
+dst "轰炸机"
+
+src "Strike"
+dst "攻击机"
+
+src "Cancel"
+dst "取消"
+
+src "Fighter"
+dst "战斗机"
+
+src "By Propulsion"
+dst "按推进系统"
+
+src "Jet"
+dst "喷气"
+
+src "Prop"
+dst "螺旋桨"
+
+
+[Hotkey Settings Window]
+src "Loading profiles"
+dst "加载配置"
+
+src "Show in OSD"
+dst "在屏幕菜单上显示"
+
+src "Vehicle Information"
+dst "载具信息"
+
+src "Cancel"
+dst "取消"
+
+src "Logging"
+dst "数据记录"
+
+src "OK"
+dst "确定"
+
+src "Benchmark mode"
+dst "基准测试模式"
+
+src "Hide"
+dst "隐藏"
+
+src "Show"
+dst "显示"
+
+src "OSD"
+dst "屏幕显示"
+
+src "Play Sounds"
+dst "播放音效"
+
+src "General"
+dst "通用"
+
+src "Hold"
+dst "按住"
+
+src "Toggle"
+dst "开关"
+
+
+[Hotkey Settings Window Hints]
+src "Allows you to assign a key to toggle logging process.\r\n\r\nHints:\r\n- Logging is activated only in Benchmark mode.\r\n- <CTRL>+<ALT>+B - activates Benchmark mode."
+dst "设置一个按键来开关记录进度.\r\n\r\n提示:\r\n- 使用数据记录功能需开启基准测试模式.\r\n- <CTRL>+<ALT>+B - 开启基准测试模式."
+
+src "Press Delete - to disable hotkey."
+dst "按下 Delete - 关闭热键."
+
+
+[Status Bar Settings Window]
+src "Cancel"
+dst "取消"
+
+src "OK"
+dst "确定"
+
+src "- System time"
+dst "- 系统时间"
+
+src "- Update time(ms)"
+dst "- 更新时间(ms)"
+
+src "- Profile name"
+dst "- 配置名称"
+
+src "- Vehicle name"
+dst "- 载具名称"
+
+src "Preview:"
+dst "预览:"
+
+src "Show"
+dst "显示"
+
+src "Scale"
+dst "比例"
+
+src "Opacity"
+dst "不透明度"
+
+src "Color"
+dst "颜色"
+
+src "Position"
+dst "位置"
+
+
+[Status Bar Settings Window Hints]
+src "Changes transparency of the status bar font"
+dst "改变状态栏字体的透明度"
+
+
+[Indicator Settings Window]
+src "Cancel"
+dst "取消"
+
+src "OK"
+dst "确定"
+
+src "Value"
+dst "数值"
+
+src "Value"
+dst "数值"
+
+src "Settings"
+dst "设置"
+
+src "Units"
+dst "单位"
+
+src "Delay"
+dst "延迟"
+
+src "Name"
+dst "名称"
+
+src "Alert"
+dst "告警"
+
+src "Percentage condition"
+dst "百分比条件"
+
+src "Multi-value style"
+dst "多数值样式"
+
+src "Delete"
+dst "删除"
+
+src "Precision"
+dst "精确度"
+
+src "Add"
+dst "添加"
+
+src "Value Multiplier"
+dst "数值乘数"
+
+src "Override Units"
+dst "覆盖单位"
+
+src "Override Name"
+dst "覆盖名称"
+
+src "OSD"
+dst "屏幕显示"
+
+src "Expr"
+dst "Expr"
+
+src "Range"
+dst "范围"
+
+src "Inverse"
+dst "取倒数"
+
+src "Hide if value"
+dst "隐藏如果数值"
+
+src "Hide if unavailable"
+dst "在不可用时隐藏"
+
+src "Logging"
+dst "数据记录"
+
+src "Show in OSD"
+dst "在屏幕菜单上显示"
+
+src "Group"
+dst "分组"
+
+src "Color"
+dst "颜色"
+
+src "General"
+dst "通用"
+
+
+[Indicator Settings Window Hints]
+src "Indicator Value color."
+dst "指示器的数值的颜色."
+
+src "Play sound during alert."
+dst "在告警时播放音效."
+
+src "Enables alert."
+dst "打开警报功能."
+
+src "Allows you to set a delay for triggering an alert.\r\nN*(Update interval)"
+dst "允许为警报触发设定一个延迟.\r\nN*(更新间隔)"
+
+src "Allows changing how is Multi-value shows in OSD.\r\n\r\n - All - shows All values of indicator.\r\n - All-Conditionally - shows all values if one of the values is different to others, otherwise shows maximum.\r\n - First - shows only First value.\r\n - Average - shows Average of all values.\r\n - Sum - shows Sum of all values.\r\n - Sum-Conditionally - shows all values if one of the values is different to others, otherwise shows Sum of all values.\r\n - Lowest - shows the Lowest value of all.\r\n - Highest - shows the Highest value of all."
+dst "允许改变 多数值显示 在屏幕菜单上的方式.\r\n\r\n - 全部 - 显示全部指示器的数值.\r\n - 条件-全部 - 如果其中一个数值与其他的不同将显示全部数值, 否则将显示其中的最大值.\r\n - 首位 - 仅显示第一个数值.\r\n - 平均 - 显示所有数值的平均值.\r\n - 总数 - 将所有数值求和后显示.\r\n - 条件求和 - 如果其中一个数值与其他的不同将显示全部数值, 否则将所有数值求和后显示.\r\n - 最低 - 显示全部中的最低值.\r\n - 最高 - 显示所有中的最高值."
+
+src "Play sound during alert."
+dst "在告警时播放音效."
+
+src "Factor that will be multiplied by the indicator value.\r\nThis will allow conversion of the indicator value into other units(metres->kilometres)."
+dst "将会与指示器数值相乘的乘数.\r\n这样就能讲指示器数值转换为其他大小的单位(米->千米)."
+
+src "Hides the indicator if a value -X or X."
+dst "隐藏指示器如果一个数值 -X or X."
+
+src "Hides the indicator if a value matches condition."
+dst "隐藏指示器如果选定的数值达成条件."
+
+src "Indicator Units color."
+dst "指示器的单位的颜色."
+
+src "Overrides OSD units."
+dst "覆盖屏幕显示使用的单位."
+
+src "Indicator Name color."
+dst "指示器名称颜色."
+
+src "Overrides OSD name."
+dst "覆盖屏幕菜单名称."
+
+src "The selected Alert will be deleted. Are you sure?"
+dst "被选中的告警将被删除. 确定吗?"
+
+src "Allows override OSD name."
+dst "允许覆盖屏幕菜单上显示的名称."
+
+src "Alert Color."
+dst "告警颜色."
+
+src "Allows changing indicators group."
+dst "允许改变指示器的分组."
+
+src "\r\n= -- (x = a) or (x = b)\r\n< -- a > x < b\r\n> -- a < x > b\r\n\r\na -- first condition value.\r\nb -- second condition value.\r\nx -- indicator value.\r\n"
+dst "\r\n= -- (x = a) or (x = b)\r\n< -- a > x < b\r\n> -- a < x > b\r\n\r\na -- first condition value.\r\nb -- second condition value.\r\nx -- indicator value.\r\n"
+
+src "Logging current indicator.\r\n\r\nHints:\r\n - Requires \"Benchmark mode\" to be enabled.\r\n - <CTRL>+<ALT>+B - Benchmark mode."
+dst "保存当前指示器的数据到日志.\r\n\r\n提示:\r\n - 需要 \"基准测试模式\" 打开才能正常工作.\r\n - <CTRL>+<ALT>+B - 打开基准测试模式."
+
+src "Shows in OSD currently selected indicator."
+dst "在屏幕显示上显示当前选中的指示器."
+
+
+[Indicator Multi-Value Style]
+src "Highest"
+dst "最高"
+
+src "Lowest"
+dst "最低"
+
+src "Sum-Cond"
+dst "总数-条件"
+
+src "All-Cond"
+dst "全部-条件"
+
+src "Sum"
+dst "总数"
+
+src "Average"
+dst "平均数"
+
+src "All"
+dst "全部"
+
+src "First"
+dst "首位"
+
+
+[Indicator Alert Settings Window]
+src "OK"
+dst "确定"
+
+src "Play Sound"
+dst "播放音效"
+
+src "Edit"
+dst "编辑"
+
+src "Repeat"
+dst "重复"
+
+src "Delete"
+dst "删除"
+
+src "Add"
+dst "添加"
+
+src "Indicator"
+dst "指示器"
+
+src "Blink interval"
+dst "闪烁间隔"
+
+src "Range"
+dst "范围"
+
+src "If Value"
+dst "如果数值"
+
+src "Units"
+dst "单位"
+
+src "Value"
+dst "数值"
+
+src "Cancel"
+dst "取消"
+
+src "And depends on"
+dst "并依赖于"
+
+src "Name"
+dst "名称"
+
+src "Color"
+dst "颜色"
+
+
+[Indicator Alert Settings Window Hints]
+src "Repeat interval.\r\nN*(Update interval).\r\nIf \"Update interval\" is less than 100ms, the repeat interval will be N*100ms."
+dst "重复间隔.\r\nN*(更新时间).\r\n如果 \"更新间隔\" 小于 100ms, 重复间隔将为 N*100ms."
+
+src "\r\n= -- (x = a) or (x = b)\r\n< -- a > x < b\r\n> -- a < x > b\r\n\r\na -- first condition value.\r\nb -- second condition value.\r\nx -- indicator value.\r\n"
+dst "\r\n= -- (x = a) or (x = b)\r\n< -- a > x < b\r\n> -- a < x > b\r\n\r\na -- first condition value.\r\nb -- second condition value.\r\nx -- indicator value.\r\n"
+
+src "Allows you to set a blink interval.\r\nN*(Update interval).\r\nIf \"Update interval\" is less than 100ms, the blink interval will be N*100ms."
+dst "允许为闪烁设置间隔时间.\r\nN*(更新时间).\r\n如果 \"更新间隔\" 小于 100ms, 重复间隔将为 N*100ms."
+
+src "You can put your sound files in the \"Sounds\" folder, the app will automatically detect them when the app starts."
+dst "将你的音效文件放到 \"Sounds\" 文件夹, 应用重启时将自动检测."
+
+
+[Indicator Alert Dependence Window]
+src "Cancel"
+dst "取消"
+
+src "OK"
+dst "确定"
+
+src "Range"
+dst "范围"
+
+
+[Indicator Alert Dependence Window Hints]
+src "\r\n= -- (x = a) or (x = b)\r\n< -- a > x < b\r\n> -- a < x > b\r\n\r\na -- first condition value.\r\nb -- second condition value.\r\nx -- indicator value.\r\n"
+dst "\r\n= -- (x = a) or (x = b)\r\n< -- a > x < b\r\n> -- a < x > b\r\n\r\na -- first condition value.\r\nb -- second condition value.\r\nx -- indicator value.\r\n"
+
+
+[Game Chat Window]
+src "Settings"
+dst "设置"
+
+src "Save"
+dst "保存"
+
+src "Logging"
+dst "数据记录"
+
+src "Message"
+dst "消息"
+
+src "Sender"
+dst "发送人"
+
+
+[Game Chat Window Hints]
+src "Hints:\r\n- <Double-click> - opens in web browser Translate page, with translated message.\r\n- <RMB> - saves message in clipboard."
+dst "提示:\r\n- <双击> - 在浏览器中打开翻译页面并翻译消息.\r\n- <RMB> - 保存消息到剪贴板."
+
+
+[Game Chat Settings Window]
+src "Cancel"
+dst "取消"
+
+src "OK"
+dst "确定"
+
+src "Language"
+dst "语言"
+
+src "Service"
+dst "服务"
+
+src "Browser"
+dst "浏览器"
+
+src "Translate"
+dst "翻译"
+
+src "Opacity"
+dst "不透明度"
+
+src "Borderless"
+dst "无边框化"
+
+src "Ignore cursor"
+dst "忽略鼠标指针"
+
+src "Topmost"
+dst "置顶"
+
+src "Window"
+dst "窗口"
+
+src "Logging"
+dst "保存日志"
+
+src "Open at startup"
+dst "在启动时打开"
+
+src "General"
+dst "通用"
+
+
+[Game Chat Settings Window Hints]
+src "Changes transparency of the window"
+dst "改变窗口透明度"
+
+src "Ignores cursor when the window is topmost"
+dst "当窗口置顶时忽略鼠标指针"
+
+src "Makes the window topmost when you in a battle."
+dst "战斗时将窗口置于所有窗口最顶端."
+
+src "F11 - toggles Borderless mode.\r\nALT-(LMB on menu bar) - moves the window."
+dst "F11 - 开关无边框模式.\r\nALT-(在菜单栏上鼠标左键拖拽) - 移动窗口."
+
+src "Open window when application starts."
+dst "在应用启动时打开窗口."
+
+
+[Game Chat Translate Service]
+src "Bing Translator"
+dst "Bing 翻译"
+
+src "Yandex.Translate"
+dst "Yandex.翻译"
+
+src "Google Translate"
+dst "Google 翻译"
+
+
+[Game Chat Translate Language]
+src "Spanish"
+dst "西班牙语"
+
+src "Russian"
+dst "俄语"
+
+src "Polish"
+dst "波兰语"
+
+src "Korean"
+dst "韩语"
+
+src "Japanese"
+dst "日语"
+
+src "German"
+dst "德语"
+
+src "French"
+dst "法语"
+
+src "English"
+dst "英语"
+
+
+[Battle Log Window]
+src "Settings"
+dst "设置"
+
+src "Save"
+dst "保存"
+
+
+[Battle Log Settings Window]
+src "Cancel"
+dst "取消"
+
+src "OK"
+dst "确定"
+
+src "Opacity"
+dst "不透明度"
+
+src "Borderless"
+dst "无边框化"
+
+src "Ignore cursor"
+dst "忽略鼠标指针"
+
+src "Topmost"
+dst "置顶"
+
+src "Window"
+dst "窗口"
+
+src "Logging"
+dst "保存日志"
+
+src "Open at startup"
+dst "在启动时打开"
+
+src "General"
+dst "通用"
+
+
+[Battle Log Settings Window Hints]
+src "Changes transparency of the window"
+dst "改变窗口透明度"
+
+src "Ignores cursor when the window is topmost"
+dst "当窗口置顶时忽略鼠标指针"
+
+src "Makes the window topmost when you in a battle."
+dst "战斗时将窗口置于所有窗口最顶端."
+
+src "F11 - toggles Borderless mode.\r\nALT-(LMB on menu bar) - moves the window."
+dst "F11 - 开关无边框模式.\r\nALT-(在菜单栏上鼠标左键拖拽) - 移动窗口."
+
+src "Open window when application starts."
+dst "当应用启动时打开窗口."
+
+
+[Vehicle Information Window]
+src "Full Flaps"
+dst "最大襟翼"
+
+src "No Flaps"
+dst "无襟翼"
+
+src "Critical Angle of Attack"
+dst "临界攻角"
+
+src "Landing"
+dst "降落档位"
+
+src "Takeoff"
+dst "起飞档位"
+
+src "Combat"
+dst "战斗档位"
+
+src "Flaps"
+dst "襟翼"
+
+src "Gear"
+dst "起落架"
+
+src "Mach"
+dst "马赫"
+
+src "Structural"
+dst "机体"
+
+src "Critical speed"
+dst "临界速度"
+
+src "Negative"
+dst "向下(负G)"
+
+src "Positive"
+dst "向上(正G)"
+
+src "Critical overload"
+dst "临界过载"
+
+src "Max Fuel mass"
+dst "最大油量质量"
+
+src "Empty mass"
+dst "空载时质量"
+
+src "At mass"
+dst "在质量为多少时:"
+
+src "Mass"
+dst "质量"
+
+src "Name"
+dst "名称"
+
+src "Vehicle"
+dst "载具"
+
+src "N/A"
+dst "不可用"
+
+src "Vehicle Information"
+dst "载具信息"
+
+src "Wing area"
+dst "翼面积"
+
+src "Wing span"
+dst "翼展"
+
+src "Length"
+dst "长度"
+
+src "Starting"
+dst "启动中"
+
+src "General"
+dst "通用"
+
+src "Loading"
+dst "加载中"
+
+src "Reset"
+dst "重置"
+
+src "Downloading"
+dst "下载中"
+
+src "Building"
+dst "建立中"
+
+src "Dimensions"
+dst "尺寸"
+
+src "FM data"
+dst "飞行模型数据"
+
+src "Max Sweep"
+dst "最大后掠"
+
+src "Min Sweep"
+dst "最小后掠"
+
+src "Wrong path"
+dst "路径错误"
+
+src "ERROR:"
+dst "错误:"
+
+src "Checking for updates"
+dst "检查更新"
+
+src "Cannot connect to server!"
+dst "无法连接到服务器!"
+
+src "Database is already up to date!"
+dst "数据库已经是最新版!"
+
+src "Database has been successfully Created and Loaded!"
+dst "已成功创建并加载数据库!"
+
+src "Database has been successfully Updated!"
+dst "数据库已成功更新!"
+
+src "Download Update"
+dst "下载更新"
+
+src "Create"
+dst "创建"
+
+src "Select the \"flightmodels\" folder"
+dst "选择 \"flightmodels\" 文件夹"
+
+src "Use created"
+dst "使用已创建的"
+
+src "Database"
+dst "数据库"
+
+src "Settings"
+dst "设置"
+
+src "FM names"
+dst "飞行模型名称"
+
+src "Disclaimer"
+dst "免责声明"
+
+
+[Vehicle Information Window Hints]
+src "Resets to the currently used vehicle."
+dst "重置为当前使用中的载具."
+
+src "This data depends on the pre-generated offline database, so it will need to be updated manually sometime.\r\n\r\nPlease use this data with caution."
+dst "本功能数据依赖于预生成的离线数据库, \r\n所以在未来将需手动更新.\r\n\r\n请在使用时小心谨慎."
+
+
+[Vehicle Information Settings Window]
+src "OK"
+dst "确定"
+
+src "Show in OSD"
+dst "在屏幕菜单上显示"
+
+src "Position"
+dst "位置"
+
+src "OSD"
+dst "屏幕菜单"
+
+src "Length"
+dst "长度"
+
+src "Mass"
+dst "质量"
+
+src "Speed"
+dst "速度"
+
+src "Units"
+dst "单位"
+
+src "Update checking"
+dst "检查更新"
+
+src "Database"
+dst "数据库"
+
+src "Cancel"
+dst "取消"
+
+src "General"
+dst "通用"
+
+
+[Vehicle Information Settings Window Hints]
+src "Allows you to select the database update checking period."
+dst "选择数据库的更新周期."
+
+
+[VR Settings Window]
+src "Size"
+dst "尺寸"
+
+src "Overlay"
+dst "嵌入界面"
+
+src "Rotation"
+dst "旋转"
+
+src "Position"
+dst "位置"
+
+src "Right"
+dst "右"
+
+src "Left"
+dst "左"
+
+src "Apply"
+dst "应用"
+
+src "HMD"
+dst "HMD"
+
+src "Cancel"
+dst "取消"
+
+src "None"
+dst "无"
+
+src "OK"
+dst "OK"
+
+src "Tracked device"
+dst "被跟踪的设备"
+
+src "Curvature"
+dst "曲度"
+
+src "VR settings in a Profile"
+dst "VR 设置配置"
+
+src "Opacity"
+dst "不透明度"
+
+src "General"
+dst "通用"
+
+
+[VR Settings Window Hints]
+src "Z axis, degrees"
+dst "Z轴, 度"
+
+src "X axis, degrees"
+dst "X轴, 度"
+
+src "Z axis\r\n\r\nHint:\r\n<SHIFT>-<ALT>-<PAGE UP/PAGE DOWN> - moves overlay on Z axis."
+dst "Z轴\r\n\r\n提示:\r\n<SHIFT>-<ALT>-<PAGE UP/PAGE DOWN> - 将界面在Z轴上移动."
+
+src "Y axis\r\n\r\nHint:\r\n<SHIFT>-<ALT>-<UP/DOWN> - moves overlay on Y axis."
+dst "Y轴\r\n\r\n提示:\r\n<SHIFT>-<ALT>-<UP/DOWN> - 将界面在Y轴上移动."
+
+src "X axis\r\n\r\nHint:\r\n<SHIFT>-<ALT>-<LEFT/RIGHT> - moves overlay on X axis."
+dst "X轴\r\n\r\n提示:\r\n<SHIFT>-<ALT>-<LEFT/RIGHT> - 将界面在X轴上移动."
+
+src "Y axis, degrees"
+dst "Y轴, 度"
+
+src "Saves VR settings in a Profile and loads them from a Profile."
+dst "将VR设定保存于配置文件中并从其中加载."
+
+src "Overlay attached to right controller.\r\n\r\nHint:\r\n<CTRL>-<ALT>-X - toggles \"Right controller tracking\" mode.\r\n<CTRL>-<ALT>-S - saves overlay's position."
+dst "显示界面绑定于右手柄.\r\n\r\n提示:\r\n<CTRL>-<ALT>-X - 开关 \"右控制器追踪\" 模式.\r\n<CTRL>-<ALT>-S - 保存显示界面位置."
+
+src "Overlay attached to left controller.\r\n\r\nHint:\r\n<CTRL>-<ALT>-Z - toggles \"Left controller tracking\" mode.\r\n<CTRL>-<ALT>-S - saves overlay's position."
+dst "显示界面绑定于左手柄.\r\n\r\n提示:\r\n<CTRL>-<ALT>-Z - 开关 \"左控制器追踪\" 模式.\r\n<CTRL>-<ALT>-S - 保存显示界面位置."
+
+src "Overlay attached to HMD.\r\n\r\nHint:\r\n<CTRL>-<ALT>-V - toggles \"HMD tracking\" mode.\r\n<CTRL>-<ALT>-S - saves overlay's position."
+dst "显示界面绑定于HMD.\r\n\r\n提示:\r\n<CTRL>-<ALT>-V - 开关 \"HMD头显追踪\" 模式.\r\n<CTRL>-<ALT>-S - 保存显示界面位置."
+
+src "Overlay's size in meteres.\r\n\r\nHint:\r\n<SHIFT>-<ALT>-Q - decrease overlay's size.\r\n<SHIFT>-<ALT>-E - increase overlay's size."
+dst "显示界面的尺寸(以米为单位).\r\n\r\n提示:\r\n<SHIFT>-<ALT>-Q - 减小显示界面大小.\r\n<SHIFT>-<ALT>-E - 增大显示界面大小."
+
+src "Overlay freely placed in space."
+dst "显示界面在空间中自由放置."
+
+
